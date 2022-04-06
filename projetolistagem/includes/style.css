@@ -14,3 +14,13 @@ main{
 .imagemsol{
     width: 60px;
 }
+
+.mainlistagem{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-65%);
+    background-color: brown;
+    border-radius: 15px;
+    color: white;
+}
