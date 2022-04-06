@@ -1,0 +1,16 @@
+header{
+    padding: 25px;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    padding: 30px;
+}
+
+.imagemsol{
+    width: 60px;
+}

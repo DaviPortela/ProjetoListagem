@@ -11,16 +11,22 @@ class add{
     public $cep;
     public $rua;
     public $numEndereco;
-
+    public $email;
+    public $senha;
+    
     public function cadastrar(){
         $obDatabase = new database('listagem');
-        $obDatabase->insert([
+        $this->id = $obDatabase->insert([
             'nomeAluno' => $this->nomeAluno,
             'idade' => $this->idade,
             'cep' => $this->cep,
             'rua' => $this->rua,
-            'numEndereco' => $this->numEndereco
+            'numEndereco' => $this->numEndereco,
+            'email' => $this->email,
+            'senha' => $this->senha
         ]);
+
+        return true;
     }
 }
 
