@@ -1,5 +1,5 @@
     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <a href="?">
+        <a href="entrar.php">
             <button class="btn btn-warning me-md-2" type="button">Entrar</button>
         </a>
         <a href="index.php">
@@ -34,6 +34,6 @@
     <label for="exampleInputPassword2" class="form-label">Confirmar senha</label>
     <input type="password" class="form-control" id="exampleInputPassword2">
   </div>
-  <button type="submit" class="btn btn-warning">Entrar</button>
+  <button type="submit" class="btn btn-warning">Cadastrar</button>
 </form>
 </main>
