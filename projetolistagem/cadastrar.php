@@ -11,7 +11,7 @@
         $obAdd->rua = $_POST['rua'];
         $obAdd->senha = $_POST['senha'];
         $obAdd->cadastrar();
-        
+        //nao da tando certo, foi uó
         header('location: index.php?status=success');
         exit;
     }
