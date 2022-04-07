@@ -24,11 +24,11 @@ class database{
     //cria conexão com o banco de dados
     private function setConnection(){
         try{
-            $this->connection = new PDO('mysql:host=' . self::HOST . ';' . 'dbname:' . self::NAME, self::USER, self::PASS);
+            $this->connection = new PDO('mysql:host=' .self::HOST . ';dbname:' . self::NAME, self::USER, self::PASS);
             $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }catch(PDOException $e){
             //isso não vai aparecer pro cliente no resultado final, só ta ai por enquanto para teste
-            die('Erro' . $e->getMessage());
+            die('Error' . $e->getMessage());
         }
     }
 
@@ -40,7 +40,7 @@ class database{
             return $statement;
         }catch(PDOException $e){
             //isso não vai aparecer pro cliente no resultado final, só ta ai por enquanto para teste
-            die('Erro' . $e->getMessage());
+            die('Error ' . $e->getMessage());
         }
     }
 

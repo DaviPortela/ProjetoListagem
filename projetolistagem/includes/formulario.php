@@ -11,25 +11,28 @@
 <main class="container sm">
 <form method="POST">
   <div class="mb-3">
-    <label for="exampleInputName1" class="form-label">Nome completo</label>
-    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="NameHelp">
+    <label class="form-label">Nome completo</label>
+    <input type="text" class="form-control" name="nomeAluno">
   </div>
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <label class="form-label">Email</label>
+    <input type="email" class="form-control" name="email">
   </div>
   <div class="mb-3">
-    <label for="exampleInputCepl1" class="form-label">CEP</label>
-    <input type="number" class="form-control" id="exampleInputCep1" aria-describedby="CepHelp">
+    <label class="form-label">CEP</label>
+    <input type="number" class="form-control" name="cep">
   </div>
   <div class="mb-3">
-    <label for="exampleInputRua1" class="form-label">Rua</label>
-    <input type="text" class="form-control" id="exampleInputRua1" aria-describedby="RuaHelp">
+    <label class="form-label">Rua</label>
+    <input type="text" class="form-control" name="rua">
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Senha</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <label class="form-label">Senha</label>
+    <input type="password" class="form-control" name="senha">
   </div>
-  <button type="submit" class="btn btn-warning">Cadastrar</button>
+  <div class="form-group">
+    <button type="submit" class="btn btn-warning">Cadastrar</button>    
+  </div>
+
 </form>
 </main>

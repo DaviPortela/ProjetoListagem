@@ -7,10 +7,8 @@ class add{
     
     public $id;
     public $nomeAluno;
-    public $idade;
     public $cep;
     public $rua;
-    public $numEndereco;
     public $email;
     public $senha;
     
@@ -18,14 +16,12 @@ class add{
         $obDatabase = new database('listagem');
         $this->id = $obDatabase->insert([
             'nomeAluno' => $this->nomeAluno,
-            'idade' => $this->idade,
             'cep' => $this->cep,
             'rua' => $this->rua,
-            'numEndereco' => $this->numEndereco,
             'email' => $this->email,
             'senha' => $this->senha
         ]);
-
+        
         return true;
     }
 }
