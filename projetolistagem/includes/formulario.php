@@ -30,10 +30,6 @@
     <label for="exampleInputPassword1" class="form-label">Senha</label>
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword2" class="form-label">Confirmar senha</label>
-    <input type="password" class="form-control" id="exampleInputPassword2">
-  </div>
   <button type="submit" class="btn btn-warning">Cadastrar</button>
 </form>
 </main>

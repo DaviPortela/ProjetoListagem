@@ -7,7 +7,3 @@
         </a>
     </div>
 </header>
-
-<main class="mainlistagem">
-    <h1>E que tal adiar o projeto mais um pouco?😉</h1>
-</main>
